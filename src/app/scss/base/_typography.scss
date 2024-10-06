@@ -1,0 +1,62 @@
+// Typography
+@use '../abstracts' as *;
+
+body {
+  font-family: $font-primary;
+  color: $text-color-primary;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+// Heading styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  letter-spacing: 0.5px;
+  color: $text-color-primary;
+
+  a {
+    font-family: $font-primary;
+  }
+
+  small {
+    font-weight: 300;
+    color: $text-color-lighter;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+// Paragraph styles
+p {
+  font-family: $font-primary;
+  font-size: .75rem;
+  line-height: 1.5;
+  color: $text-color-lighter;
+}
